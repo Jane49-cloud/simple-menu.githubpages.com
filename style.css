@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+Body{
+    background-color: #116466;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin:20px;
+}
+
+.all{
+ margin-top: 20px;
+ display: flex;
+ flex-direction: row;
+grid-template-rows: 1fr 1fr 1fr;
+column-gap: 20px;
+justify-content: space-evenly;
+
+
+}
+.dessert,.breakfast,.supper,.lunch{
+  display: flex;
+  column-gap: 20px;
+}
+
+.breakfast{
+    column-gap: 10px;;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    height: 20px;
+   color: #ffffff;
+   
+}
